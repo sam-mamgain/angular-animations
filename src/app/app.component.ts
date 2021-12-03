@@ -136,4 +136,13 @@ export class AppComponent {
   onShrunken() {
     this.wildState = 'shrunken';
   }
+
+  animationStarted(event) {
+    console.log(event);
+  }
+
+  animationEnded(event) {
+    console.log(event);
+    
+  }
 }
